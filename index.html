@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wellness Website</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-barba="wrapper">
+    <header class="nav-header">
+      <h1><a href="./index.html" id="logo">well.</a></h1>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+
+
+    <section class="banner">
+		 <img src="Images Pexels/header-background.jpg" height="100%" width="100%" class="fitBg">
+		 <div class="content">
+			 <h2 class="titleText">Wellness Retreat</h2>
+		<p class="text">Because you deserve a break.</p>
+	<a href="./html/ourPlace.html" class="btn main">Learn More</a></div>
+	 </section>
+
+
+    <main data-barba="container" data-barba-namespace="home">
+      <section class="first-slide slide">
+        <div class="hero-img">
+          <img src="./Images Pexels/bg-1.jpg" alt="Wellness image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Wellness and happiness at your <span class="finger-span"> fingertips.</span>
+            </h2>
+            <div class="title-swipe t-swipe1"></div>
+          </div>
+          <p>
+           A long week of relaxation and enjoyment, leaving behind any stress and worries of life.</p>
+         <a href="./html/ourPlace.html" class="Discover Home">Discover our Home</a></div>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="second-slide slide">
+        <div class="hero-img">
+          <img src="./Images Pexels/pexels-taryn-elliott-4099235.jpg" alt="Relax image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>Tasting at your <span class="finger2-span">fingertips.</span></h2>
+            <div class="title-swipe t-swipe2"></div>
+          </div>
+          <p>
+            Healthy and delicious meals to give nourishment and healing to your body.
+          </p>
+          <a href="./html/meals.html"class="Discover Meals">Taste</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="third-slide slide">
+        <div class="hero-img">
+          <img src="./Images Pexels/treattment4 Yoga2.jpg" alt="Yoga image" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Enjoyement at your <span class="finger3-span">fingertips.</span>
+            </h2>
+            <div class="title-swipe t-swipe3"></div>
+          </div>
+          <p>
+            Workshops and daily treatments availables to rejuvenate and Reenergize.
+          </p>
+          <a href="./html/treatments.html" class="Discover Treatments">Enjoy our Treatments</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+    </main>
+
+
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <h3><a href="./html/ourPlace.html" class="Our Retreat">Retreat</a></h3>
+        <h3><a href="./html/treatments.html" class="Our Treatmets">Treatments</a></h3>
+        <h3><a href="#contact" class="Contact">Contact</a></h3>
+      </ul>
+      <div class="contact">
+        <h2>Stay in touch.</h2> 
+      </div>
+    </nav>
+    <div class="cursor">
+      <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+
+     <section class="contact" id="contact">
+            <div class="form-wrapper flex">
+                <h2>Get in <br> 
+                    <span>touch.
+                    </h2>
+                <form>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email required"> <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <img src="Images Pexels/contact-image.jpg" height="900rem"" width="40%"alt="Contact Form"/>
+	 </section>
+	 
+     <section class="footer">
+	<ul class="sci">
+		<li><a href="#"><img src="Images Pexels/facebook.png"></a></li>
+		<li><a href="#"><img src="Images Pexels/twitter.png"></a></li>
+		<li><a href="#"><img src="Images Pexels/instagram.png"></a></li>
+	</ul>
+	<h4 class="copyrightText">Copyright 2021</h4>
+</section>
+
+
+
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+      integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+      integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+      integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
